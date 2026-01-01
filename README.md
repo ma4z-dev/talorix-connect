@@ -32,10 +32,11 @@ async function createServer() {
     nodeId: "NODE_ID",
     allocationId: "ALLOCATION_ID",
     imageId: "IMAGE_ID",
-    ram: 1024,
+    ram: 1024, // in mb
     core: 1,
-    disk: 10240,
+    disk: 10, // in gb
     userId: "USER_ID",
+    env: {}, // this is in image.env
   });
   console.log(server);
 }
@@ -65,3 +66,5 @@ const wsStats = client.ws.stats("SERVER_ID", {
 ## License
 
 MIT
+
+## CHECK API DOCS AT https://talorix.io 
