@@ -1,6 +1,6 @@
 {
   "name": "talorix-connect",
-  "version": "1.0",
+  "version": "1.0.1",
   "description": "Node.js client for Talorix Panel API v1 and WebSockets",
   "main": "index.js",
   "scripts": {
